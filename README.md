@@ -53,5 +53,4 @@ Once logged in, try typing these commands in the terminal:
 | `sudo-logs` | **(Admin Only)** View privileged access logs. |
 | `terminate <id>` | **(Admin Only)** Simulate terminating a session. |
 
----
-*Created by PAMA Dev Team*
+
