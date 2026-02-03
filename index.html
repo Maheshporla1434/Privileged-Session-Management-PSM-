@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAMA | Intelligent Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Authentication Module -->
+        <div id="auth-module" class="module active">
+            <div class="glass-panel auth-card">
+                <div class="auth-header">
+                    <div class="logo">PAM</div>
+                    <p class="subtitle">Privileged Access Management AI</p>
+                </div>
+
+                <div class="role-switch-container">
+                    <button class="role-btn active" data-role="user" onclick="setRole('user')">User</button>
+                    <button class="role-btn" data-role="admin" onclick="setRole('admin')">Higher Authority</button>
+                </div>
+
+                <!-- Forms Container -->
+                <div class="forms-wrapper">
+                    <!-- Login Form -->
+                    <form id="login-form" class="auth-form active" onsubmit="handleLogin(event)">
+                        <h2>Welcome Back</h2>
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" id="login-email" placeholder="name@company.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Password</label>
+                            <input type="password" id="login-password" placeholder="••••••••" required>
+                        </div>
+                        <button type="submit" class="primary-btn">Log In</button>
+                        <p class="switch-text">New here? <a href="#" onclick="toggleAuthMode('register')">Create
+                                account</a></p>
+                    </form>
+
+                    <!-- Register Form -->
+                    <form id="register-form" class="auth-form" onsubmit="handleRegister(event)">
+                        <h2>Create Account</h2>
+                        <div class="input-group">
+                            <label>Full Name</label>
+                            <input type="text" id="reg-name" placeholder="John Doe" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" id="reg-email" placeholder="name@company.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Password</label>
+                            <input type="password" id="reg-password" placeholder="••••••••" required>
+                        </div>
+                        <button type="submit" class="primary-btn">Register</button>
+                        <p class="switch-text">Already have an account? <a href="#"
+                                onclick="toggleAuthMode('login')">Log in</a></p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Dynamic Background Elements -->
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+        </div>
+
+        <!-- IDE / Dashboard Module -->
+        <div id="ide-module" class="module">
+            <nav class="top-bar">
+                <div class="nav-left">
+                    <span class="nav-logo">PAMA</span>
+                    <span class="separator">/</span>
+                    <span id="current-session-user">Session: Guest</span>
+                </div>
+                <div class="nav-right">
+                    <!-- Top Level Risk Stats -->
+                    <div id="risk-stats-container" class="risk-stats-container hidden">
+                        <div class="risk-stat-item">
+                            <span>Daily Avg:</span>
+                            <span id="daily-risk-val" class="risk-val safe">0.00</span>
+                        </div>
+                        <div class="risk-stat-item">
+                            <span>Weekly Total:</span>
+                            <span id="weekly-risk-val" class="risk-val safe">0</span>
+                        </div>
+                    </div>
+
+                    <button id="admin-logs-btn" class="nav-btn hidden" onclick="toggleAdminLogs()">
+                        🔔 Alerts <span id="alert-badge" class="badge hidden">0</span>
+                    </button>
+                    <span class="status-indicator online"></span>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
+                </div>
+            </nav>
+
+            <div class="ide-layout">
+                <aside class="sidebar">
+                    <div class="sidebar-header">EXPLORER</div>
+                    <ul class="file-tree">
+                        <li class="folder open">
+                            <span class="icon">📁</span> src
+                            <ul>
+                                <li class="file"><span class="icon">📄</span> <span class="filename">monitor.py</span>
+                                </li>
+                                <li class="file"><span class="icon">📄</span> <span class="filename">logs.txt</span>
+                                </li>
+                                <li class="file"><span class="icon">📄</span> <span class="filename">config.yaml</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="folder">
+                            <span class="icon">📁</span> models
+                        </li>
+                    </ul>
+                </aside>
+
+                <main class="editor-area">
+                    <div class="terminal-wrapper">
+                        <div class="terminal-header">
+                            <span class="terminal-tab active">Terminal 1</span>
+                            <span class="terminal-tab">Output</span>
+                        </div>
+                        <div class="terminal-body" id="terminal-body" onclick="focusTerminal()">
+                            <div class="output-line system-msg">PAMA Secure Shell v1.0.2</div>
+                            <div class="output-line system-msg">Connected. Type 'help' for available commands.</div>
+                        </div>
+                        <div class="input-line">
+                            <span class="sc-prompt" id="prompt-label">user@pama:~$</span>
+                            <input type="text" id="terminal-input" autocomplete="off" onkeydown="handleCommand(event)">
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Admin Logs Overlay -->
+            <div id="admin-overlay" class="glass-overlay hidden">
+                <div class="logs-panel glass-panel">
+                    <div class="logs-header">
+                        <h2>🛡️ Security Operations Center</h2>
+                        <button class="close-btn" onclick="toggleAdminLogs()">×</button>
+                    </div>
+                    <div class="table-container">
+                        <table id="logs-table">
+                            <thead>
+                                <tr>
+                                    <th>Timestamp</th>
+                                    <th>User</th>
+                                    <th>Command</th>
+                                    <th>Daily Avg</th>
+                                    <th>Weekly Total</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Rows injected by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- New section for user command history, hidden by default -->
+                    <div id="user-commands-container" class="hidden">
+                        <h3>User Command History</h3>
+                        <div class="table-container">
+                            <table id="user-commands-table">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Command</th>
+                                        <th>Score</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Filled via JS when limit exceeded -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="commands.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

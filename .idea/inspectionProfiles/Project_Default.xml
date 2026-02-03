@@ -1,0 +1,33 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="llama-cpp-python" />
+          <option value="torchvision" />
+          <option value="matplotlib" />
+          <option value="inflect" />
+          <option value="loguru" />
+          <option value="polars" />
+          <option value="natsort" />
+          <option value="sounddevice" />
+          <option value="mecab-python3" />
+          <option value="unidic-lite" />
+          <option value="uroman" />
+          <option value="openai-whisper" />
+          <option value="pygame" />
+          <option value="descript-audio-codec" />
+          <option value="ftfy" />
+          <option value="fastapi" />
+          <option value="uvicorn" />
+          <option value="scikit-learn" />
+          <option value="numpy" />
+          <option value="pandas" />
+          <option value="joblib" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

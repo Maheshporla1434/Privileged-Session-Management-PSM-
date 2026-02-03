@@ -1,0 +1,488 @@
+/* ... Previous styles retained (append logic simulated by writing full file content with additions) ... */
+
+:root {
+    --bg-dark: #0f1115;
+    --bg-panel: rgba(22, 25, 30, 0.7);
+    --primary: #3b82f6;
+    --primary-glow: rgba(59, 130, 246, 0.5);
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --font-sans: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --danger: #ef4444;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.app-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.module {
+    display: none;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.module.active {
+    display: flex;
+    opacity: 1;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Auth & IDE Core Styles */
+#auth-module {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: radial-gradient(circle at 50% 10%, #1a1e26 0%, var(--bg-dark) 100%);
+}
+
+.glass-panel {
+    background: var(--bg-panel);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    width: 100%;
+    max-width: 420px;
+    z-index: 10;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #fff 0%, var(--primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.role-switch-container {
+    display: flex;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.role-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.role-btn.active {
+    background: var(--primary);
+    color: #fff;
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.auth-form {
+    display: none;
+    animation: fadeIn 0.4s ease;
+}
+
+.auth-form.active {
+    display: block;
+}
+
+.input-group {
+    margin-bottom: 1.25rem;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.input-group input {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border);
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.primary-btn {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    box-shadow: 0 0 20px var(--primary-glow);
+}
+
+.switch-text {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+/* IDE Layout */
+#ide-module {
+    flex-direction: column;
+    background: #0d0f12;
+    position: relative;
+}
+
+.top-bar {
+    height: 50px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    background: #111318;
+}
+
+.nav-logo {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 8px #10b981;
+}
+
+.logout-btn,
+.nav-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.logout-btn:hover,
+.nav-btn:hover {
+    color: #fff;
+    border-color: var(--text-muted);
+}
+
+.badge {
+    background: var(--danger);
+    color: white;
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+/* Risk Stats Top Bar */
+.risk-stats-container {
+    display: flex;
+    gap: 12px;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.risk-stat-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-muted);
+}
+
+.risk-val {
+    color: #fff;
+    font-family: var(--font-mono);
+    font-weight: 700;
+}
+
+.risk-val.safe {
+    color: #10b981;
+}
+
+.risk-val.warn {
+    color: #f59e0b;
+}
+
+.risk-val.danger {
+    color: #ef4444;
+}
+
+.ide-layout {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 250px;
+    background: #111318;
+    border-right: 1px solid var(--border);
+    padding: 1rem;
+}
+
+.editor-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #0f1115;
+}
+
+.terminal-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.terminal-body {
+    flex: 1;
+    background: #090a0c;
+    padding: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    overflow-y: auto;
+    color: #d1d5db;
+    border: 1px solid #1e222a;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    background: #090a0c;
+    padding: 0 1rem 1rem 1rem;
+    border: 1px solid #1e222a;
+    border-top: none;
+}
+
+.sc-prompt {
+    color: #10b981;
+    margin-right: 8px;
+    font-family: var(--font-mono);
+    font-weight: 700;
+}
+
+#terminal-input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: var(--font-mono);
+    flex: 1;
+    outline: none;
+}
+
+.output-line {
+    margin-bottom: 4px;
+}
+
+.success-msg {
+    color: #10b981;
+}
+
+.error-msg {
+    color: #ef4444;
+}
+
+/* Admin Overlay */
+.glass-overlay {
+    position: absolute;
+    top: 50px;
+    /* Below Nav */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    animation: fadeIn 0.3s;
+}
+
+.logs-panel {
+    width: 80%;
+    max-width: 900px;
+    height: 80%;
+    background: #16191e;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+}
+
+.logs-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #fff;
+}
+
+.table-container {
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+th {
+    text-align: left;
+    color: var(--text-muted);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    font-weight: 500;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid var(--glass-border);
+    color: var(--text-main);
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.risk-high {
+    color: var(--danger);
+    font-weight: 600;
+}
+
+/* --- NOTIFICATIONS --- */
+.notification-container {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 350px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.toast {
+    background: rgba(20, 20, 25, 0.95);
+    border-left: 4px solid var(--primary);
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 0.9rem;
+    animation: slideIn 0.3s ease-out;
+}
+
+.toast.alert {
+    border-left-color: var(--danger);
+    background: rgba(40, 10, 10, 0.95);
+}
+
+.toast-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
