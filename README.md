@@ -1,4 +1,4 @@
-# PAMA - Privileged Access Management AI (Web Interface)
+# PAMA - Privileged Sesssion Management AI (Web Interface)
 
 PAMA is a premium, AI-driven monitoring dashboard designed to simulate privileged access tracking, command execution, and threat detection.
 
